@@ -1,0 +1,22 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+
+{
+	int e;
+	for (int e=1; e<=100; e++){
+		
+		if (e%3==0 && e%5==0){
+			cout<<"FizzBuzz"<<endl;
+		}
+		else if (e%3==0){	
+			cout<<"Fizz"<<endl;
+		}	
+		else if (e%5==0)
+		{
+			cout<<"buzz"<<endl;
+		}
+		else{
+			cout<<e<<endl;
+		}}}
